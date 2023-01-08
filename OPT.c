@@ -131,7 +131,7 @@ void defA_to_A(int defA[], int A[])
 void A_Insert(int A[], int n)
 {
     printf("Chuoi tham chieu: ");
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         scanf("%d", &A[i]);
     }
@@ -205,3 +205,9 @@ void OPT(int A[], int frames[], int NumOf_frames, int n)
     printf("So trang loi la: %d\n", count);
     free(position);
 }
+void FIFO(int A[], int frames[], int NumOf_frames, int n){
+    printf("%d",1);
+};
+void LRU(int A[], int frames[], int NumOf_frames, int n){
+    printf("%d",1);
+};
